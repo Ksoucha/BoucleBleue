@@ -1,16 +1,19 @@
 # BoucleBleue
-Cours 420J17AS
-Kseniya Finchenko et Noémie-Alexia Prévost
+Boucle Bleue starts in a very bright universe. The main character is a doll who wakes up in a beautiful room. As she starts to explore, she realizes that there are many strange things happening in this house. The doll is actually not safe here...
 
-Description du jeu:
+## Game Overview
+Text-based game made in C# with Visual Studio Console, made in collaboration with [@noemiealexia](https://github.com/noemiealexia). Throughout the game, the player is prompted to write in the console, either to indicate what object they want to inspect, what room they want to go to, or what action they want to do. The text options are between square brackets, and the player needs to write the word correctly for it to work. The core of the gameplay is a series of actions that the player needs to do in order to unlock other actions/options (system of dependencies). The player can also freely move from one room to another. The rooms' descriptions will slightly change depending on the actions that the player has unlocked, and the universe will become darker and stranger. After the player has completed a certain action, the end game room will appear and the game ending 1, 2 or 3 will be displayed. 
 
-Boucle Bleue est un jeu à base de texte qui commence dans un monde très mignon. Le personnage principal est une poupée qui se réveille dans une pièce qui parrait merveilleuse. Plus la poupée découvre son environnement, plus il y a des choses étranges qui se produisent. La poupée n'est définitivement pas en sécurité...
+## Files
+* **Plan des pieces.png**: Game Map that you can use to visualize the rooms
 
-Identifiez le thème de votre jeu: la perte d'innocence
+## Steps to run the game
+1. Clone the repository
+2. Nagivate to the project folder
+3. Open the folder _BoucleBleue_
+4. Open the file _BoucleBleue.sln_
 
-Mettez en place une surprise importante dans le jeu pour bouleverser le joueur (on a les 3 endings)
-
-Minimum 5 salles bien détaillées (on les a, reste juste description pour les 2 dernières)
-
-Prenez note des mécaniques de jeu que vous voulez implémenter, mais qui nécessite mon aide (photo)
+## Bugs to fix
+* The background music of the game opens in the user's browser on YouTube, not in-game
+* Add instructions/context in the beginning of the game
 
