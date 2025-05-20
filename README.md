@@ -13,7 +13,7 @@ Text-based game made in C# with Visual Studio Console, made in collaboration wit
 3. Open the folder _BoucleBleue_
 4. Open the file _BoucleBleue.sln_
 
-## Bugs to fix
+## Bugs to fix/features to add
 * The background music of the game opens in the user's browser on YouTube, not in-game
 * Add instructions/context in the beginning of the game
 
