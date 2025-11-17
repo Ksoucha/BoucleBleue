@@ -18,8 +18,6 @@ namespace BoucleBleue.Pièces
                    "\n\tLe mur à l'ouest est recouvert de [sang]." +
                    "\n\tUne grande [porte rouge] semble indiquer la sortie." +
                    "\n\tUne [porte noire] est au sud et une [porte jaune] est à l'est.");
-
-
             }
             else
             {
@@ -101,9 +99,9 @@ namespace BoucleBleue.Pièces
                     Console.WriteLine("\nTu essaies de parler au mur. Mais il ne fait que répéter 'MEURS'...\nTu n'es pas certaine, mais tu crois que le mur attend quelque chose.\nPeut-être y a-t-il un mot qu'il aimerait entendre?");
                     break;
                 case "boucle":
-                    Console.WriteLine("\nEn disant le mot boucle, le sang coulant du mur s'éparpille sur tous les autres murs.\nBientôt, il coule même du plafond." +
-                                      "\nEnfin, après avoir été recouvert du sang, tu le vois se transformer en bleu.\nTout d'un coup, tout autour de toi est bleu. Les murs, les meubles, ta robe, la boucle dans tes cheveux, ... maintenant bleus." +
-                                      "\nTu ne te sens pas bien et tu t'évanouis.");
+                    Console.WriteLine("\nEn disant le mot boucle, le sang coulant du mur s'éparpille sur tous les autres murs. \nBientôt, il coule même du plafond." + 
+                      "\nEnfin, après avoir été recouvert du sang, tu le vois se transformer en bleu.\nTout d'un coup, tout autour de toi est bleu. Les murs, les meubles, ta robe, la boucle dans tes cheveux, ... maintenant bleus." +
+                      "\nTu ne te sens pas bien et tu t'évanouis.");
                     Console.WriteLine("\n\n\tJeu écrit par Noémie-Alexia Prévost et Kseniya Finchenko\n\t\t- - - FIN 05: Vraie fin - - -");
                     Jeu.nextRoom = "Fin";
                     break;

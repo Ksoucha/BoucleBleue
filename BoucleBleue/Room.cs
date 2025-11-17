@@ -8,7 +8,7 @@ namespace BoucleBleue
 {
     public abstract class Room
     {
-        public string nextRoomToGo ="";
+        public string nextRoomToGo = "";
         internal abstract void ViewDescription();
         internal abstract void ReceiveChoice(string choice);
     }

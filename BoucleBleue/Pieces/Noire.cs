@@ -8,7 +8,6 @@ namespace BoucleBleue.Pièces
 {
     internal class Noire : Room
     { 
-
         internal override void ViewDescription()
         {
             Console.WriteLine("\n\tLa pièce est peinturée de noir. L'atmosphère est horrible." +

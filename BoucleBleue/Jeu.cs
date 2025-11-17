@@ -30,7 +30,6 @@ namespace BoucleBleue
         public static bool Fin05 = false;
         public static bool SeenEnigme = false;
 
-
         public Jeu()
         {
             this.rooms = new List<Room>();
@@ -66,8 +65,6 @@ namespace BoucleBleue
             CheckTransition();
         }
 
-
-
         internal static void Finish()
         {
             isFinished = true;
@@ -102,10 +99,8 @@ namespace BoucleBleue
                     stringBuilder.Append(c);
                 }
             }
-
             return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
         }
-
     }
 }
   

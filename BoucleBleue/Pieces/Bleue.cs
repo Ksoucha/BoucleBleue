@@ -35,8 +35,7 @@ namespace BoucleBleue.Pièces
                                           "\nPoupée: Souviens-toi, BOUCLE." +
                                           "\nTu es destabilisée. Tu ne sais pas de quoi la poupée parle. Elle doit être folle." +
                                           "\nPoupée: Sors d'ici, BOUCLE." +
-                                          "\nElle te remet une petite clé blanche."
-                                          );
+                                          "\nElle te remet une petite clé blanche." );
                         Jeu.HasGreenKey = true;
                         Jeu.HasOrangeKey = true;
                     }
@@ -91,6 +90,7 @@ namespace BoucleBleue.Pièces
                          "\nLa poupée semble complètement différente. Elle crie et le sang abondant coulant de ses yeux la rend terrifiante.\nTu recules tranquillement, continuer de lui parler n'est pas une bonne idée." +
                          "\nTu te retournes vers la poupée lorsque tu entends un objet métallique tomber au sol." +
                          "\nElle semble de retour à la normale. Une petite clé blanche est par terre. Tu la prends.");
+                    
                     System.Diagnostics.Process.Start(new ProcessStartInfo
                     {
                         FileName = "https://i.postimg.cc/3RdfvYb3/IMG-0051.jpg",
@@ -132,7 +132,6 @@ namespace BoucleBleue.Pièces
                     break;
 
             }     
-            
         }
     }
 }

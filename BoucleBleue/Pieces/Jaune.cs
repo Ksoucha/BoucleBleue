@@ -8,7 +8,6 @@ namespace BoucleBleue.Pièces
 {
     internal class Jaune : Room
     {
-
         internal override void ViewDescription()
         {
             if (Jeu.HasRedKey)
@@ -17,8 +16,6 @@ namespace BoucleBleue.Pièces
                 "\n\tIls ricanent en te regardant. Ils semblent menaçants et agressifs." +
                 "\n\tIl y a un grand [coffre] à jouets, des [chaises], un [ballon] gonflable et des petites [tables]." +
                 "\n\tUne [porte blanche] est à l'Ouest, une [porte rose] à l'Est.");
-
-
             }
             else
             {
@@ -27,7 +24,6 @@ namespace BoucleBleue.Pièces
                 "\n\tIl y a un grand [coffre] à jouets, des [chaises], un [ballon] gonflable et des petites [tables]." +
                 "\n\tUne [porte blanche] est à l'Ouest, une [porte rose] à l'Est.");
             }
-          
         }
 
         internal override void ReceiveChoice(string choice)
@@ -67,7 +63,6 @@ namespace BoucleBleue.Pièces
                     {
                         Console.WriteLine("\nTu t'agenouilles devant l'ourson bleu.");
                         Console.WriteLine("\nPeluche: HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA.\nToi: Pourquoi as-tu fait ça peluche?! J'ai eu peur!\nPeluche: HAHAHAHAHAHAHAHAHAHAHAHA MEURS.\nPeu importe ce que tu essaies de dire à peluche, il ne fait que ricaner comme les autres peluches. Tu te relèves.");
-
                     }
                     else
                     {
@@ -82,7 +77,6 @@ namespace BoucleBleue.Pièces
                         Console.WriteLine("\nLa présence à côté de toi est effrayante. L'ourson semble chuchoter un mot en répétition.\nLorsque tu t'approches pour entendre ce qu'il dit, il se met à crier dans ton oreille.");
                         for (int i = 7; i >= 0; i--)
                         {
-
                             Console.WriteLine("\n\tMEURS.");
                             Thread.Sleep(700);
                         }
@@ -91,7 +85,6 @@ namespace BoucleBleue.Pièces
                     else
                     {
                         Console.WriteLine("\nSa présence est calmante. Son regard semble rempli d'amour. Tu te sens joyeuse. Ton coeur de poupée est heureux.");
-
                     }
                         break;
                 case "ballon":
@@ -109,7 +102,6 @@ namespace BoucleBleue.Pièces
                     else if (Jeu.Tables == true)
                     {
                         Console.WriteLine("\nTu prends la petite clé et tu l'insères dans le coffre à jouets.");
-
                         Jeu.nextRoom = "Coffre";
                     }
                     else
@@ -120,11 +112,7 @@ namespace BoucleBleue.Pièces
                 default:
                     Console.WriteLine("Commande invalide.");
                     break;
-
             }
-
         }
-
-         
     }
 }

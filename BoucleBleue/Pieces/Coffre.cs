@@ -21,7 +21,6 @@ namespace BoucleBleue.Pièces
             switch (choice)
             {
                 case "non":
-
                     Console.WriteLine("\nEffrayée, tu te mets à cogner sur le couvercle du coffre, mais les oursons se moquent de toi." +
                         "\nUne autre voix que celles des peluches retentit autour de toi. Plus forte, plus calme et plus grave." +
                         "\nMEURS." +
@@ -59,6 +58,5 @@ namespace BoucleBleue.Pièces
 
             }
         }
-
     }
 }

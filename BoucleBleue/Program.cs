@@ -1,5 +1,4 @@
-﻿
-using BoucleBleue;
+﻿using BoucleBleue;
 using BoucleBleue.Pièces;
 using System.Diagnostics;
 using System.Media;
@@ -10,7 +9,6 @@ using NAudio;
 using NAudio.Utils;
 using NAudio.FileFormats;
 using NAudio.CoreAudioApi;
-
 
 // Music files
 /// <summary>
@@ -31,30 +29,18 @@ public class LoopStream : WaveStream
         this.EnableLooping = true;
     }
 
-    /// <summary>
-    /// Use this to turn looping on or off
-    /// </summary>
     public bool EnableLooping { get; set; }
 
-    /// <summary>
-    /// Return source stream's wave format
-    /// </summary>
     public override WaveFormat WaveFormat
     {
         get { return sourceStream.WaveFormat; }
     }
 
-    /// <summary>
-    /// LoopStream simply returns
-    /// </summary>
     public override long Length
     {
         get { return sourceStream.Length; }
     }
 
-    /// <summary>
-    /// LoopStream simply passes on positioning to source stream
-    /// </summary>
     public override long Position
     {
         get { return sourceStream.Position; }
@@ -109,7 +95,6 @@ class Program
 
         while (recommencer)
         {
-
             var game = new Jeu();
 
             Room Rose = new Rose();
@@ -120,7 +105,7 @@ class Program
             Room Coffre = new Coffre();
             Room Fin = new Fin();
 
-            Room DevinetteKseniya = new DevinetteKseniya();
+            //Room DevinetteKseniya = new DevinetteKseniya();
 
             game.Add(Blanche);
             game.Add(Bleue);
@@ -130,7 +115,7 @@ class Program
             game.Add(Rose);
             game.Add(Fin);
 
-            game.Add(DevinetteKseniya);
+            //game.Add(DevinetteKseniya);
 
             game.SetCurrentRoom(Rose);
 
@@ -202,7 +187,6 @@ class Program
             {
                 recommencer = false;
             }
-
         }
     }
 }

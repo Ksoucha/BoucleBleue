@@ -12,7 +12,6 @@ namespace BoucleBleue.Pièces
     {
         internal override void ViewDescription()
         {
-
             if (Jeu.HasRedKey)
             {
                 Console.WriteLine("\n\tTu retournes dans la chambre rose. " +
@@ -29,7 +28,7 @@ namespace BoucleBleue.Pièces
                 Console.WriteLine("\n\tTes yeux de poupée s'ouvrent sur une belle chambre rose. " +
                     "\n\tLa pièce est adornée de beaux meubles qui s'agencent aux murs roses." +
                     "\n\tÀ travers la pièce, de grandes fleurs vibrantes se reposent et des papillons s'excitent tout autour de toi." +
-                    "\n\tÀ ta droite se trouve une [porte jaune], devant toi une [porte bleue] et une salle [devinette] \n");
+                    "\n\tÀ ta droite se trouve une [porte jaune], devant toi une [porte bleue] \n");
 
             }
         }
@@ -38,10 +37,10 @@ namespace BoucleBleue.Pièces
         {
             switch (choice)
             {
-                case "devinette":
+                /*case "devinette":
                     Console.WriteLine("\nTu ouvres la porte et entres dans la pièce.");
                     Jeu.nextRoom = "DevinetteKseniya";
-                    break;
+                    break;*/
                 case "porte bleue":
                     if (Jeu.HasBlueKey)
                     {
@@ -63,6 +62,5 @@ namespace BoucleBleue.Pièces
 
             }
         }
-
     }
 }
