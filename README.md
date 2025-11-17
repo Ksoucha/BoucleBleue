@@ -10,11 +10,12 @@ Text-based game made in C# with Visual Studio Console Application, in collaborat
 ## Steps to run the game
 1. Clone the repository
 2. Nagivate to the project directory
-3. MNagivate to the folder _BoucleBleue/bin/Release/net6.0_ and open the .exe file
+3. Nagivate to the folder _BoucleBleue/bin/Release/net6.0_ and open the .exe file
 
 ## Bugs to fix/features to add
 * The background music of the game opens in the user's browser on YouTube, not in-game
 * Add instructions/context in the beginning of the game
 * Make an English version of the game
+
 
 
